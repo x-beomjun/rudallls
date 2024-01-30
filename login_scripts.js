@@ -44,7 +44,7 @@ get_in_Btn.addEventListener('click', (event) => {
     const enteredId = input_Id.value;
     const enteredPassword = input_Password.value;
     const user = team.find(member => member.id === enteredId);
-        location.href = link;
+    location.href = link;
 });
 
 let team = [
