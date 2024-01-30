@@ -38,6 +38,14 @@ sign_in_Btn.addEventListener('click', (event) => {
     }
 });
 
+get_in_Btn.addEventListener('click', (event) => {
+    event.preventDefault();
+    const enteredId = input_Id.value;
+    const enteredPassword = input_Password.value;
+    const user = team.find(member => member.id === enteredId);
+        location.href = link;
+});
+
 let team = [
     {'id':'rudallls','password':'rudallls00'}
 ];
