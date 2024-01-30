@@ -2,6 +2,7 @@ const container = document.getElementById("container");
 const descriptionBtn = document.getElementById('description');
 const teamBtn = document.getElementById('team');
 const sign_in_Btn = document.getElementById('sign_in');
+const get_in_Btn = document.getElementById('get_in');
 const input_Id = document.getElementById('input_ID');
 const input_Password = document.getElementById('input_Password');
 let errStack = 0;
