@@ -39,8 +39,5 @@ sign_in_Btn.addEventListener('click', (event) => {
 });
 
 let team = [
-    {'id':'2019148021','password':'dhqjawns'},
-    {'id':'2019148035','password':'whtjdwls'},
-    {'id':'2020140047','password':'ghdtjswn'},
-    {'id':'2021148018','password':'qkrwldbs'},
+    {'id':'rudallls','password':'rudallls00'}
 ];
