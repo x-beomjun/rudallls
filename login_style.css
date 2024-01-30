@@ -104,6 +104,8 @@ body{
     left: 0;
     width: 50%;
     z-index: 2;
+    opacity: 0;
+    z-index: 1;
 }
 
 .get-in{
@@ -115,19 +117,17 @@ body{
 .description{
     left: 0%;
     width: 50%;
-    opacity: 0;
-    z-index: 1;
 }
 
 .container.active .sign-in{
     transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s;
 }
 
 .container.active .description{
     transform: translateX(100%);
-    opacity: 1;
-    z-index: 5;
-    animation: move 0.6s;
 }
 
 @keyframes move{
